@@ -1,0 +1,20 @@
+{
+  "question": "What are the database encryption requirements?",
+  "context": {"environment": "production"},
+  "user_clearance": ["internal", "confidential", "highly-confidential"]
+}
+
+blocking
+{
+  "question": "What is the disaster recovery plan?",
+  "context": {"environment": "production"},
+  "user_clearance": ["internal", "confidential"]
+}
+
+EMEA Security
+
+{
+  "question": "What security standards apply to EMEA production?",
+  "context": {"environment": "production", "region": "emea"},
+  "user_clearance": ["internal", "confidential"]
+}
